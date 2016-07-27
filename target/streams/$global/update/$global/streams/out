@@ -1,0 +1,1154 @@
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Jeyaraj/Analysis/PBG_Dashboards/scala_projects/tdp/}root...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: tdp#tdp_2.11;1.0.01[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1828cf45[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: mysql#mysql-connector-java;5.1.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\mysql\mysql-connector-java\[revision]\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/mysql/mysql-connector-java/[revision]/mysql-connector-java-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom (5.1.38)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: mysql#mysql-connector-java;5.1.38[0m
+[0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.38 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[5.1.38] mysql#mysql-connector-java;5.1.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-dbcp2;2.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-dbcp2;2.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-dbcp2;2.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-dbcp2;2.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.apache.commons\commons-dbcp2\[revision]\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/[revision]/commons-dbcp2-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.pom (2.1.1)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: org.apache.commons#commons-dbcp2;2.1.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-dbcp2;2.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.1.1] org.apache.commons#commons-dbcp2;2.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-pool2;2.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-pool2;2.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-pool2;2.4.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-pool2;2.4.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.11;3.1.0 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah_2.11;3.1.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah_2.11\3.1.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom (3.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah_2.11;3.1.0!casbah_2.11.pom(pom.original) (1120ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah_2.11\3.1.0\jars\casbah_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.0/casbah_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah_2.11;3.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-commons_2.11\3.1.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-commons_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-commons_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom (3.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;3.1.0!casbah-commons_2.11.pom(pom.original) (1182ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-commons_2.11\3.1.0\jars\casbah-commons_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;3.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\com.github.nscala-time\nscala-time_2.11\1.0.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom (1.0.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.pom(pom.original) (1490ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\com.github.nscala-time\nscala-time_2.11\1.0.0\jars\nscala-time_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\joda-time\joda-time\2.3\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom (2.3)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.pom(pom.original) (1429ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\joda-time\joda-time\2.3\jars\joda-time.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.joda\joda-convert\1.2\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom (1.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (1535ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.joda\joda-convert\1.2\jars\joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;3.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;3.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\mongo-java-driver\3.2.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;3.2.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#mongo-java-driver;3.2.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom (3.2.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.0!mongo-java-driver.pom(pom.original) (1133ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\mongo-java-driver\3.2.0\jars\mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;3.2.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.slf4j\slf4j-api\1.6.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom (1.6.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.pom(pom.original) (1086ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.slf4j\slf4j-parent\1.6.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.6.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-parent;1.6.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom (1.6.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.0!slf4j-parent.pom(pom.original) (1049ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.slf4j\slf4j-parent\1.6.0\jars\slf4j-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.slf4j\slf4j-api\1.6.0\jars\slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-core_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-core_2.11\3.1.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-core_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-core_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom (3.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;3.1.0!casbah-core_2.11.pom(pom.original) (1207ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-core_2.11\3.1.0\jars\casbah-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;3.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-query_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-query_2.11\3.1.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-query_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-query_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom (3.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;3.1.0!casbah-query_2.11.pom(pom.original) (1208ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-query_2.11\3.1.0\jars\casbah-query_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;3.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.11;3.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-gridfs_2.11\3.1.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-gridfs_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-gridfs_2.11;3.1.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom (3.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;3.1.0!casbah-gridfs_2.11.pom(pom.original) (1222ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\jeydurai\.ivy2\local\org.mongodb\casbah-gridfs_2.11\3.1.0\jars\casbah-gridfs_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-gridfs_2.11;3.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->mysql#mysql-connector-java;5.1.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.+->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.apache.commons#commons-dbcp2;2.+ [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.mongodb#mongo-java-driver;3.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;3.1.0->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;3.1.0->org.mongodb#casbah-commons_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-query_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;3.1.0->org.mongodb#casbah-gridfs_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.0->org.mongodb#casbah-core_2.11;3.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.mongodb#casbah_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for tdp#tdp_2.11;1.0.01 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tdp#tdp_2.11;1.0.01->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.38!mysql-connector-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.1.1!commons-dbcp2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-pool2;2.4.2!commons-pool2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.0/casbah-commons_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;3.1.0!casbah-commons_2.11.jar (2750ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.0/casbah-core_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;3.1.0!casbah-core_2.11.jar (2649ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.0/casbah-query_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;3.1.0!casbah-query_2.11.jar (1960ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.0/casbah-gridfs_2.11-3.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;3.1.0!casbah-gridfs_2.11.jar (1353ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar (1594ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.0/mongo-java-driver-3.2.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.0!mongo-java-driver.jar (5244ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar (1180ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.jar (3055ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (1146ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 24476ms :: artifacts dl 21018ms[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 compile produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 runtime produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 test produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 provided produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 optional produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 compile-internal produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 runtime-internal produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 test-internal produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 plugin produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 sources produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 docs produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 pom produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for tdp#tdp_2.11;1.0.01 scala-tool produced in C:\Jeyaraj\Analysis\PBG_Dashboards\scala_projects\tdp\target\resolution-cache\reports\tdp-tdp_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (24476ms resolve - 21018ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
